@@ -15,12 +15,15 @@ return new class extends Migration
             $table->id();
             $table->date('tanggal_pinjam');
             $table->date('tanggal_kembali');
-            $table->unsignedBigInteger('id_buku', 11);
-            $table->foreign('id_buku')->references('id')->on('anggotas');
-            $table->unsignedBigInteger('id_anggota', 11);
+            $table->unsignedBigInteger('id_buku');
+            $table->foreign('id_buku')->references('id')->on('bukus');
+            // $table->foreignId('id_buku')->constrained('bukus');
+            $table->unsignedBigInteger('id_anggota');
             $table->foreign('id_anggota')->references('id')->on('anggotas');
-            $table->unsignedBigInteger('id_petugas', 11);
+            // $table->foreignId('id_anggota')->constrained('anggotas');
+            $table->unsignedBigInteger('id_petugas');
             $table->foreign('id_petugas')->references('id')->on('petugass');
+            // $table->foreignId('id_petugas')->constrained('petugass');
             $table->timestamps();
         });
     }

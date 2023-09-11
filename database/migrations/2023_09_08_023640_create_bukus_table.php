@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('penulis_buku', 50);
             $table->string('penerbit_buku', 50);
             $table->char('tahun_penerbit', 4);
-            $table->integer('stok', 11);
+            $table->integer('stok');
             $table->timestamps();
         });
     }
