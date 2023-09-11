@@ -16,11 +16,11 @@
   <!-- Site wrapper -->
   <div class="wrapper">
     <!-- Navbar -->
-    @include('template.seperate.navbar')
+    @include('template.navbar')
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    @include('template.seperate.sidebar')
+    @include('template.sidebar')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
     @yield('content')
@@ -28,7 +28,7 @@
     <!-- /.content-wrapper -->
 
     <!-- Footer -->
-    @include('template.seperate.footer')
+    @include('template.footer')
     <!-- /footer -->
 
     <!-- Control Sidebar -->

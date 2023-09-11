@@ -1,9 +1,9 @@
-@extends('template.index')
+@extends('index')
 
 @section('content')
   <div class="card card-primary">
                 <div class="card-header">
-                  <h3 class="card-title">Form Input Data Petugas</h3>
+                  <h3 class="card-title">Form Petugas</h3>
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
@@ -24,6 +24,7 @@
 
                   <div class="card-footer">
                     <button type="submit" name="submit" value="Save" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Reset</button>
                   </div>
                 </form>
                 </div>
