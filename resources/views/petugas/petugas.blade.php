@@ -12,13 +12,13 @@
                   <div class="card-body">
                     <div class="form-group">
                       <label for="exampleInputEmail1">Nama Petugas</label>
-                      <input type="number" class="form-control" name="nama_petugas" placeholder="Input Nama Petugas">
+                      <input type="number" class="form-control" name="nama_petugas" placeholder="">
                       <label for="exampleInputEmail1">Jabatan Petugas</label>
-                      <input type="text" class="form-control" name="jabatan_petugas" placeholder="Input Jabatan Petugas">
+                      <input type="text" class="form-control" name="jabatan_petugas" placeholder="">
                       <label for="exampleInputEmail1">No Telepon</label>
-                      <input type="text" class="form-control" name="no_telp_petugas" placeholder="Input No Telepon Petugas">
+                      <input type="text" class="form-control" name="no_telp_petugas" placeholder="">
                       <label for="exampleInputEmail1">Alamat Petugas</label>
-                      <input type="text" class="form-control" name="alamat_petugas" placeholder="Input alamat petugas">
+                      <input type="text" class="form-control" name="alamat_petugas" placeholder="">
                     </div>
                   <!-- /.card-body -->
 

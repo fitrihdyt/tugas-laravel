@@ -12,9 +12,9 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Kode Anggota</label>
-                    <input type="text" class="form-control" name="kode_anggota" placeholder="Input Kode Anggota">
+                    <input type="text" class="form-control" name="kode_anggota" placeholder="">
                     <label for="exampleInputEmail1">Nama Anggota</label>
-                    <input type="text" class="form-control" name="nama_anggota" placeholder="Input Nama Anggota">
+                    <input type="text" class="form-control" name="nama_anggota" placeholder="">
                         <label>Jenis Kelamin</label>
                         <select type="text" name="jk_anggota" class="form-control">
                           <option></option>
@@ -22,11 +22,11 @@
                           <option value="P">Perempuan</option>
                         </select>
                     <label for="exampleInputEmail1">Jurusan anggota</label>
-                    <input type="text" class="form-control" name="jurusan_anggota" placeholder="Input Jurusan Anggota">
+                    <input type="text" class="form-control" name="jurusan_anggota" placeholder="">
                     <label for="exampleInputEmail1">No Telepon</label>
-                    <input type="number" class="form-control" name="no_telp_anggota" placeholder="Input No Telp Anggota">
+                    <input type="number" class="form-control" name="no_telp_anggota" placeholder="">
                     <label for="exampleInputEmail1">Alamat Anggota</label>
-                    <input type="text" class="form-control" name="alamat_anggota" placeholder="Input Alamat Anggota">
+                    <input type="text" class="form-control" name="alamat_anggota" placeholder="">
                   </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
