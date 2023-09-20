@@ -25,48 +25,48 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="{{ route('anggota') }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ route('anggota.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
               <p>
                 Anggota
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('buku') }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ route('buku.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
               <p>
                 Buku
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('petugas') }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ route('petugas.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
               <p>
                 Petugas
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('rak') }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ route('rak.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-book-open"></i>
               <p>
                 Rak
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('peminjaman') }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ route('peminjaman.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-arrow-right"></i>
               <p>
                 Peminjaman
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('pengembalian') }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ route('pengembalian.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-arrow-left"></i>
               <p>
                 Pengembalian
               </p>
