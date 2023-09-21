@@ -65,11 +65,9 @@
                       <a href="{{ route('petugas.edit', $value->id) }}" class="btn btn-sm btn-warning" style="margin-left: 8px;">
                         Edit
                       </a>
-                      <form action="{{ route('petugas.destroy', $value->id) }}" method="POST">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class="btn btn-sm btn-danger" style="margin-left: 8px;">Hapus</button>
-                      </form>
+                      <a href="" type="sumbit" class=" btn-sm btn-danger" style="margin-left: 10px;" data-toggle="modal" data-target="#exampleModal">
+                      Delete
+                      </a>
                       </div>
                     </td>
                   </tr>
@@ -88,6 +86,28 @@
     <!-- /.container-fluid -->
   </section>
   <!-- /.content -->
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Konfirmasi</h5>
+            </div>
+            <div class="modal-body">
+                <p>Anda yakin ingin menghapus data genre?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cancel</button>
+                <form action="{{ route('petugas.destroy', $value->id) }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-sm btn-danger" style="margin-left: 8px;">Delete</button>
+                            </form>
+            </div>
+        </div>
+    </div>
+</div>
   
 @endsection
 

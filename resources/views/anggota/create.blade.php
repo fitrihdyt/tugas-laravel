@@ -27,7 +27,7 @@
                     <input type="number" class="form-control" id="no_telp_anggota" name="no_telp_anggota" placeholder="">
                     <div class="form-group">
                     <label for="alamat_anggota">Alamat</label>
-                    <textarea name="alamat" id="alamat_anggota" cols="30" rows="10" class="form-control" placeholder=""></textarea>
+                    <textarea name="alamat_anggota" id="alamat_anggota" cols="30" rows="10" class="form-control" placeholder=""></textarea>
                     </div>
                   </div>
                 <!-- /.card-body -->
